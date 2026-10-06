@@ -1238,3 +1238,54 @@ a{
       color: #f3a712;
       margin-top: 3px;
     }
+@media (max-width: 991px) {
+  .col-6, .col-3 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .newsletter-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newsletter-form {
+    max-width: 100%;
+  }
+
+  .faq-title {
+    font-size: 28px !important;
+  }
+
+  .main-title {
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    border-radius: 3px !important;
+    padding: 12px 15px;
+  }
+
+  .btn-submit {
+    width: 100%;
+  }
+}
