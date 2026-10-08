@@ -1289,3 +1289,46 @@ a{
     width: 100%;
   }
 }
+@media (max-width: 1280px) {
+  .herosection1 { padding-left: 30px; padding-right: 30px; }
+  .herosection2 { padding-right: 40px; }
+  .links { gap: 30px; }
+}
+
+@media (max-width: 1100px) {
+  .herosection2 {
+    position: relative;
+    height: 80px;
+    padding: 0 20px 0 0;
+  }
+@media (max-width: 991px) {
+
+  /* Hero */
+  .image {
+    height: auto;
+    min-height: 560px;
+    background-attachment: scroll;      /* fixed bg mobile par kharab chalta hai */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+  }
+    @media (min-width: 577px) and (max-width: 991px) {
+  .col-3 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+
+/* ---------- Phones (<= 576px) ---------- */
+@media (max-width: 576px) {
+
+  .container { width: 92%; }
+    @media (max-width: 360px) {
+  .logo { padding: 0 25px 0 45px; }
+  .logo .font { font-size: 18px; }
+  .btn { width: 200px; }
+  .stat-number { font-size: 22px; }
+}
